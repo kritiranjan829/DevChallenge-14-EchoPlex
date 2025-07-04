@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple Homepage Echoplex | devChallenges.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      /* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Body settings */
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #111827;
+}
+
+/* Logo */
+.logo {
+  width: 40px;
+  margin-top: 10px;
+}
+
+/* Connect button */
+.button-1 {
+  float: right;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: #4138C2;
+  background-color: #ffffff;
+  border: 1px solid #9DA3AE;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Hero Image */
+.hero_image {
+  float: right;
+  width: 300px;
+  margin: 30px 0 30px 30px;
+  border-radius: 12px;
+}
+
+/* Main Heading */
+.line-1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 50px 0 10px 0;
+  max-width: 600px;
+}
+
+/* Subtext */
+.line-2 {
+  font-size: 1rem;
+  color: #6B7280;
+  margin-bottom: 24px;
+  max-width: 500px;
+}
+
+/* Create / Explore Buttons */
+.button-2, .button-3 {
+  padding: 10px 24px;
+  border-radius: 12px;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button-2 {
+  background-color: #4138C2;
+  color: white;
+  border: none;
+}
+
+.button-3 {
+  background-color: white;
+  color: #4138C2;
+  border: 1px solid #9DA3AE;
+}
+
+/* Section Heading */
+.line-3 {
+  margin-top: 100px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Feature Emojis and Labels */
+.emoji-1, .emoji-2, .emoji-3, .emoji-4,
+.emoji-5, .emoji-6, .emoji-7, .emoji-8 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.line-4, .line-5, .line-6, .line-7,
+.line-8, .line-9, .line-10, .line-11 {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Footer Background Image */
+.footer_background {
+  width: 100%;
+  margin-top: 100px;
+  border-radius: 16px;
+}
+
+/* CTA Line */
+.line-12 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin-top: -150px;
+  position: relative;
+}
+
+/* CTA Button */
+.button-4 {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 24px;
+  background-color: #4138C2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  margin-top: 100px;
+  padding: 20px 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Author Info */
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin: 16px 0;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+  color: #4F46E5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero_image {
+    float: none;
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+  }
+
+  .line-1, .line-2 {
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+
+  .button-2, .button-3 {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .line-12 {
+    font-size: 1.25rem;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <img src="logo.svg" alt="echoplex logo" class="logo">
+    
+    <button class="button-1"><strong>Connect</strong></button>
+    <br><img src="hero_image.png" alt="hero_image" class="hero_image">
+
+    <div class="line-1"><strong><span style="color:#4138C2">EchoPlex </span>is the first community-owned digital art gallery.</strong></div>
+    
+    <div class="line-2">Empowering Artists and Connecting Communities Through Digital Art</div>
+    
+    <button class="button-2">Create</button>
+    
+    <button class="button-3">Explore</button>
+    
+    <div class="line-3">Join 30,000+ creators and collections</div>    
+    <div class="emoji-1">👾</div>
+    <div class="line-4"><strong><span style="color:#4138C2">Immersive Digital</span> Art Experience</strong></div>
+    
+    <div class="emoji-2">⚙️</div>
+    <div class="line-5"><strong><span style="color: #5EC269;">Customizable</span> Flooring</strong></div>   
+     
+    
+    <div class="emoji-3">🎭</div>
+    <div class="line-6"><strong><span style="color: #E14F62;">State-of-the-Art</span> Displays</strong></div> 
+    
+    <div class="emoji-4">🎓</div>
+    <div class="line-7"><strong><span style="color:#E2B53E">Expertly Designed</span> Lighting and Sound</strong></div> 
+    
+    <div class="emoji-5">👨🏻‍💻</div>
+    <div class="line-8"><strong><span style="color:#E87B35">Community</span> Engagement</strong></div>
+    
+    <div class="emoji-6">👩‍🎨</div>
+    <div class="line-9"><strong><span style="color:#4E80EE">Artist</span> Collaborations</strong></div>
+    
+    <div class="emoji-7">📚</div>
+    <div class="line-10"><strong><span style="color: #9D59EF;">Educational</span style="color:#9D59EF"> Programs</strong></div>
+    
+    <div class="emoji-8">🤖</div>
+    <div class="line-11"><strong><span style="color:#52B3D0">Technology</span> Integration</strong></div> 
+    
+
+    <img src="footer_background_image.png" class="footer_background" alt="footer_background_image">
+    <div class="line-12">Begin you digital art journey with EchoPlex</div>    
+    <button class="button-4">Create</button>
+    
+    <footer style="color: #FFFFFF; background-color: black;">© EchoPlex Oy. All rights reserved.
+    
+    Term
+    
+    Privacy Policy  </footer>
+  
+   
+
+    <div class="author-info">
+      Coded by <a href="https://codewithkriti.com/">Kriti Ranjan</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html> 
